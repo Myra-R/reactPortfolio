@@ -2,18 +2,37 @@ import React from "react";
 
 function Contact() {
   return (
-    <div>
-      <h1>Contact Page</h1>
+    <div className="container">
+        <div className="row">
+            <div className="col">
+            <form>
+    <div className="form-group">
+      <label for="formGroupExampleInput">LinkedIn:</label>
+      <br/>
+      <a href="url"> https://www.linkedin.com/in/myramr/</a>
+    </div>
+    <div className="form-group">
+      <label for="formGroupExampleInput2">Github:</label>
+      <br/>
+      <a href="url"> https://github.com/Myra-R</a>
+    </div>
+    <div className="form-group">
+      <label for="formGroupExampleInput2">Contact Info:</label>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna
-        varius, blandit rhoncus sem. Morbi lacinia nisi ac dui fermentum, sed luctus urna tincidunt.
-        Etiam ut feugiat ex. Cras non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna
-        imperdiet ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras rutrum
-        ligula in tincidunt commodo. Morbi sit amet mollis orci, in tristique ex. Donec nec ornare
-        elit. Donec blandit est sed risus feugiat porttitor. Vestibulum molestie hendrerit massa non
-        consequat. Vestibulum vitae lorem tortor. In elementum ultricies tempus. Interdum et
-        malesuada fames ac ante ipsum primis in faucibus.
+        Myra Rozmiarek
+        <br/>
+        11marozmi@gmail.com
+        <br/>
+        414-334-5642
+        
       </p>
+
+   
+    </div>
+  </form>
+            </div>
+        </div>
+     
     </div>
   );
 }
